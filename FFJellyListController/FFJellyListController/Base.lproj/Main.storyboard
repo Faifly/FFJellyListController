@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Foo-6J-Lz6">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Jelly List Controller-->
+        <scene sceneID="mD6-bY-OVC">
+            <objects>
+                <viewController id="Ndm-7x-wzO" customClass="FFJellyListController" customModule="FFJellyListController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uG3-nU-5W9"/>
+                        <viewControllerLayoutGuide type="bottom" id="cOS-PR-JzG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="x9u-pg-v84">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4Zg-7R-esj">
+                                <rect key="frame" x="0.0" y="44" width="600" height="556"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="jellyCell" id="Tzr-kt-j3y" customClass="FFJellyListCell" customModule="FFJellyListController" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tzr-kt-j3y" id="5f0-7Z-isQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="np0-wP-4XE">
+                                                    <rect key="frame" x="1" y="38" width="598" height="5"/>
+                                                    <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="87V-mY-eRz">
+                                                    <rect key="frame" x="1" y="1" width="598" height="5"/>
+                                                    <color key="backgroundColor" red="1" green="0.3086420976" blue="0.11219444739999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="np0-wP-4XE" firstAttribute="top" secondItem="87V-mY-eRz" secondAttribute="bottom" constant="32" id="7jF-zD-39k"/>
+                                                <constraint firstItem="np0-wP-4XE" firstAttribute="top" secondItem="5f0-7Z-isQ" secondAttribute="top" constant="38" id="GTt-GH-xOr"/>
+                                                <constraint firstItem="87V-mY-eRz" firstAttribute="leading" secondItem="5f0-7Z-isQ" secondAttribute="leadingMargin" constant="-7" id="Il6-Fb-4yk"/>
+                                                <constraint firstItem="87V-mY-eRz" firstAttribute="trailing" secondItem="np0-wP-4XE" secondAttribute="trailing" id="UgC-4G-R1C"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="np0-wP-4XE" secondAttribute="bottom" constant="-7" id="gGg-Nv-PnG"/>
+                                                <constraint firstItem="87V-mY-eRz" firstAttribute="top" secondItem="5f0-7Z-isQ" secondAttribute="topMargin" constant="-7" id="kgo-Hn-MVX"/>
+                                                <constraint firstItem="87V-mY-eRz" firstAttribute="leading" secondItem="np0-wP-4XE" secondAttribute="leading" id="nUt-Vu-GxF"/>
+                                                <constraint firstItem="87V-mY-eRz" firstAttribute="centerX" secondItem="5f0-7Z-isQ" secondAttribute="centerX" id="zhN-Sz-9lN"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Ndm-7x-wzO" id="guX-gT-Z1G"/>
+                                    <outlet property="delegate" destination="Ndm-7x-wzO" id="EBf-aj-mdW"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4Zg-7R-esj" firstAttribute="top" secondItem="uG3-nU-5W9" secondAttribute="bottom" constant="24" id="0rs-Hi-vM1"/>
+                            <constraint firstAttribute="trailing" secondItem="4Zg-7R-esj" secondAttribute="trailing" id="RlA-wz-MWE"/>
+                            <constraint firstItem="4Zg-7R-esj" firstAttribute="leading" secondItem="x9u-pg-v84" secondAttribute="leading" id="TJy-79-fz8"/>
+                            <constraint firstItem="4Zg-7R-esj" firstAttribute="bottom" secondItem="cOS-PR-JzG" secondAttribute="top" id="zHz-fa-3iw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="G2G-vP-nwf"/>
+                    <connections>
+                        <outlet property="tableView" destination="4Zg-7R-esj" id="zaW-MK-2BK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NcP-yL-F4J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1700" y="261"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Db5-76-Oof">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="Foo-6J-Lz6" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mSp-4y-6pR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ndm-7x-wzO" kind="relationship" relationship="rootViewController" id="Iwo-fc-tAf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NQP-J7-Aih" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="880" y="261"/>
+        </scene>
+    </scenes>
+</document>

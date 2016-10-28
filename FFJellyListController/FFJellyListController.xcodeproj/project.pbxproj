@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		146D3E921D733A4600C7EFB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D3E911D733A4600C7EFB1 /* AppDelegate.swift */; };
+		146D3E971D733A4600C7EFB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146D3E951D733A4600C7EFB1 /* Main.storyboard */; };
+		146D3E991D733A4600C7EFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146D3E981D733A4600C7EFB1 /* Assets.xcassets */; };
+		146D3E9C1D733A4600C7EFB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146D3E9A1D733A4600C7EFB1 /* LaunchScreen.storyboard */; };
+		146D3EA71D733A4600C7EFB1 /* FFJellyListControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D3EA61D733A4600C7EFB1 /* FFJellyListControllerTests.swift */; };
+		146D3EB21D733AA200C7EFB1 /* FFJellyListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D3EB11D733AA200C7EFB1 /* FFJellyListController.swift */; };
+		146D3EB41D733B0A00C7EFB1 /* FFJellyListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D3EB31D733B0A00C7EFB1 /* FFJellyListCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		146D3EA31D733A4600C7EFB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146D3E861D733A4600C7EFB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 146D3E8D1D733A4600C7EFB1;
+			remoteInfo = FFJellyListController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		146D3E8E1D733A4600C7EFB1 /* FFJellyListController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFJellyListController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		146D3E911D733A4600C7EFB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		146D3E961D733A4600C7EFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		146D3E981D733A4600C7EFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		146D3E9B1D733A4600C7EFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		146D3E9D1D733A4600C7EFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146D3EA21D733A4600C7EFB1 /* FFJellyListControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFJellyListControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		146D3EA61D733A4600C7EFB1 /* FFJellyListControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFJellyListControllerTests.swift; sourceTree = "<group>"; };
+		146D3EA81D733A4600C7EFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146D3EB11D733AA200C7EFB1 /* FFJellyListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFJellyListController.swift; sourceTree = "<group>"; };
+		146D3EB31D733B0A00C7EFB1 /* FFJellyListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFJellyListCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		146D3E8B1D733A4600C7EFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146D3E9F1D733A4600C7EFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		146D3E851D733A4600C7EFB1 = {
+			isa = PBXGroup;
+			children = (
+				146D3E901D733A4600C7EFB1 /* FFJellyListController */,
+				146D3EA51D733A4600C7EFB1 /* FFJellyListControllerTests */,
+				146D3E8F1D733A4600C7EFB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		146D3E8F1D733A4600C7EFB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				146D3E8E1D733A4600C7EFB1 /* FFJellyListController.app */,
+				146D3EA21D733A4600C7EFB1 /* FFJellyListControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		146D3E901D733A4600C7EFB1 /* FFJellyListController */ = {
+			isa = PBXGroup;
+			children = (
+				146D3E911D733A4600C7EFB1 /* AppDelegate.swift */,
+				146D3EB11D733AA200C7EFB1 /* FFJellyListController.swift */,
+				146D3EB31D733B0A00C7EFB1 /* FFJellyListCell.swift */,
+				146D3E951D733A4600C7EFB1 /* Main.storyboard */,
+				146D3E981D733A4600C7EFB1 /* Assets.xcassets */,
+				146D3E9A1D733A4600C7EFB1 /* LaunchScreen.storyboard */,
+				146D3E9D1D733A4600C7EFB1 /* Info.plist */,
+			);
+			path = FFJellyListController;
+			sourceTree = "<group>";
+		};
+		146D3EA51D733A4600C7EFB1 /* FFJellyListControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				146D3EA61D733A4600C7EFB1 /* FFJellyListControllerTests.swift */,
+				146D3EA81D733A4600C7EFB1 /* Info.plist */,
+			);
+			path = FFJellyListControllerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		146D3E8D1D733A4600C7EFB1 /* FFJellyListController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146D3EAB1D733A4600C7EFB1 /* Build configuration list for PBXNativeTarget "FFJellyListController" */;
+			buildPhases = (
+				146D3E8A1D733A4600C7EFB1 /* Sources */,
+				146D3E8B1D733A4600C7EFB1 /* Frameworks */,
+				146D3E8C1D733A4600C7EFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFJellyListController;
+			productName = FFJellyListController;
+			productReference = 146D3E8E1D733A4600C7EFB1 /* FFJellyListController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		146D3EA11D733A4600C7EFB1 /* FFJellyListControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146D3EAE1D733A4600C7EFB1 /* Build configuration list for PBXNativeTarget "FFJellyListControllerTests" */;
+			buildPhases = (
+				146D3E9E1D733A4600C7EFB1 /* Sources */,
+				146D3E9F1D733A4600C7EFB1 /* Frameworks */,
+				146D3EA01D733A4600C7EFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				146D3EA41D733A4600C7EFB1 /* PBXTargetDependency */,
+			);
+			name = FFJellyListControllerTests;
+			productName = FFJellyListControllerTests;
+			productReference = 146D3EA21D733A4600C7EFB1 /* FFJellyListControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		146D3E861D733A4600C7EFB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Faifly LLC.";
+				TargetAttributes = {
+					146D3E8D1D733A4600C7EFB1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+					146D3EA11D733A4600C7EFB1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 146D3E8D1D733A4600C7EFB1;
+					};
+				};
+			};
+			buildConfigurationList = 146D3E891D733A4600C7EFB1 /* Build configuration list for PBXProject "FFJellyListController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 146D3E851D733A4600C7EFB1;
+			productRefGroup = 146D3E8F1D733A4600C7EFB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				146D3E8D1D733A4600C7EFB1 /* FFJellyListController */,
+				146D3EA11D733A4600C7EFB1 /* FFJellyListControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		146D3E8C1D733A4600C7EFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146D3E9C1D733A4600C7EFB1 /* LaunchScreen.storyboard in Resources */,
+				146D3E991D733A4600C7EFB1 /* Assets.xcassets in Resources */,
+				146D3E971D733A4600C7EFB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146D3EA01D733A4600C7EFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		146D3E8A1D733A4600C7EFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146D3EB41D733B0A00C7EFB1 /* FFJellyListCell.swift in Sources */,
+				146D3EB21D733AA200C7EFB1 /* FFJellyListController.swift in Sources */,
+				146D3E921D733A4600C7EFB1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146D3E9E1D733A4600C7EFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146D3EA71D733A4600C7EFB1 /* FFJellyListControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		146D3EA41D733A4600C7EFB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 146D3E8D1D733A4600C7EFB1 /* FFJellyListController */;
+			targetProxy = 146D3EA31D733A4600C7EFB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		146D3E951D733A4600C7EFB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146D3E961D733A4600C7EFB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		146D3E9A1D733A4600C7EFB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146D3E9B1D733A4600C7EFB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		146D3EA91D733A4600C7EFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		146D3EAA1D733A4600C7EFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		146D3EAC1D733A4600C7EFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FFJellyListController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faifly.FFJellyListController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		146D3EAD1D733A4600C7EFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FFJellyListController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faifly.FFJellyListController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		146D3EAF1D733A4600C7EFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FFJellyListControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faifly.FFJellyListControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFJellyListController.app/FFJellyListController";
+			};
+			name = Debug;
+		};
+		146D3EB01D733A4600C7EFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FFJellyListControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faifly.FFJellyListControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFJellyListController.app/FFJellyListController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		146D3E891D733A4600C7EFB1 /* Build configuration list for PBXProject "FFJellyListController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146D3EA91D733A4600C7EFB1 /* Debug */,
+				146D3EAA1D733A4600C7EFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		146D3EAB1D733A4600C7EFB1 /* Build configuration list for PBXNativeTarget "FFJellyListController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146D3EAC1D733A4600C7EFB1 /* Debug */,
+				146D3EAD1D733A4600C7EFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		146D3EAE1D733A4600C7EFB1 /* Build configuration list for PBXNativeTarget "FFJellyListControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146D3EAF1D733A4600C7EFB1 /* Debug */,
+				146D3EB01D733A4600C7EFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 146D3E861D733A4600C7EFB1 /* Project object */;
+}
